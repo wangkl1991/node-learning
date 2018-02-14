@@ -9,7 +9,13 @@ class LinkedList{
         }
         return currNode;
 
-
+    }
+    findLast() {
+        var currNode = this.head;
+        while (!(currNode.next == null)) {
+            currNode = currNode.next;
+        }
+        return currNode;
     }
 }
 

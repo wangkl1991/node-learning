@@ -23,17 +23,18 @@
 // }
 
 
+
 var dispatch = function(n, m) {
-    let base = Math.floor(n / m)
-    let extra = n - m * base
+    let base = Math.floor(n / m) //2
+    let extra = n - m * base // 1
 
     return [...Array(m)].map((v, i) => {
         let hasExtra = i < extra
         let jMax = base + (hasExtra ? 1 : 0)
         let baseNum = i * base + 1 + (hasExtra ? i : extra)
-
+        
         return [...Array(jMax)].map((v, j) => j + baseNum)
     })
 }
 
-console.log(dispatch(6, 2))
+console.log(dispatch(10, 3))
