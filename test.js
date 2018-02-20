@@ -93,8 +93,4 @@
 
 // a();
 
-var a = {n : 1};
-var b = a;
-a.x = "aa";
-console.log(a);
-console.log(b);
+console.log([1,2,3].concat([4,7,5]));

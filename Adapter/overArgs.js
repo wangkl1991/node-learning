@@ -8,4 +8,4 @@ const square = x=> x*x;
 const fn = overArgs((x, y) => [x, y], [square, double]);
 
 
-console.log(fn(2,3));
+console.log(fn(2,3)); 
