@@ -93,4 +93,83 @@
 
 // a();
 
-console.log([1,2,3].concat([4,7,5]));
+// console.log([1,2,3].concat([4,7,5]));
+
+// let ll = ["a" ,"b" ,"c"];
+// console.log((ll.indexOf("f")) && (ll.indexOf("a")) );
+// console.log(false&&true)
+
+// let ll = ["a","b","c","d"];
+// let test = [1,2,3,4,5];
+// console.log(test.reduce((acc,v ) => acc = acc + v))
+// console.log(ll.reduce((acc, n) => acc.push(n)), [])
+
+// console.log([1,2,3,4,5,6,7].reduce((acc, pre, index, arr) => {
+//     if(index > 3) return acc;
+//     console.log(arr);
+//     return acc + pre;
+// },5))
+
+
+// var flattened = [[0, 1], [2, 3], [4, 5]].reduce((a, b) => 
+//      a.concat(b)
+//    , [9]);
+
+// var kk = [1,2,3,4,5,6].reduce((a,b)=> a.concat(b), [9] )
+//    console.log(kk)
+// let a = ["a", "b", "c", "d"];
+// let l =[];
+//  a.forEach(v => {
+    
+//     if (v === "a") { l.push(true)} else {
+//         l.push(false);
+//     }
+// })
+// console.log(res);
+// var promise = new Promise ((resolve, reject) => {
+//     setTimeout(() => resolve("sdsds"), 3000)
+// });
+// console.log("no promise")
+// promise.then((data)=>
+//         console.log(data)
+// )
+
+// console.log([1,2,3,4,5,6,7].reduce((acc, v)=> acc.push(v),[]) )
+// let res =[]
+
+
+// let names = ['wang', 'zhang', 'chen', 'shi','wang'];
+// const contedName = names.reduce((allNames, name) => {
+//     if(name in allNames) {
+//         allNames[name] ++;
+//     }else{
+//         allNames[name] = 1;
+//     }
+//     return allNames
+// }, {}) 
+
+// console.log(contedName)
+
+
+// var a =[1,2,3,4,5,6];
+// var shita = a.shift();
+// console.log(a, shita)
+
+// let set = new Set([1,2,3,2,2])
+// console.log(set);
+// console.log(typeof(set))
+
+function hh (callback) {
+    let a = 10;
+    callback(a);
+
+}
+let a =110
+hh(function(t){
+    console.log("sdsd");
+    console.log(t);
+})
+
+
+
+

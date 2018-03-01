@@ -4,4 +4,4 @@ const differenceBy = (arrA, arrB, fn) => {
 }
 
 
-console.log(differenceBy([2.1, 1.2], [2.3, 3.4], Math.floor)) 
+console.log(differenceBy([2.1, 1.2], [2.3, 2.4], Math.floor)) 
