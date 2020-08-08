@@ -159,17 +159,30 @@
 // console.log(set);
 // console.log(typeof(set))
 
-function hh (callback) {
-    let a = 10;
-    callback(a);
+// function hh (callback) {
+//     let a = 10;
+//     callback(a);
 
+// }
+// let a =110
+// hh(function(t){
+//     console.log("sdsd");
+//     console.log(t);
+// })
+
+// var dir = "../archives/predictions_20180313.json"
+// console.log(dir.split("_")[1].)
+
+
+// var arr = [
+//     {name: 'wkl', age: 12}
+// ]
+
+// arr.push({name:'siqi', age: 13})
+// console.log(arr);
+var ObjectID = require("bson-objectid");
+console.log(ObjectID());
+var a = ""
+{
+    value : a;
 }
-let a =110
-hh(function(t){
-    console.log("sdsd");
-    console.log(t);
-})
-
-
-
-
